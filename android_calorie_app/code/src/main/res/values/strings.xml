@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+
+
+    <string-array name="exercise_array">
+        <item>Push-Up (reps)</item>
+        <item>Sit-Up (reps)</item>
+        <item>Jumping Jacks (minutes)</item>
+        <item>Jogging (minutes)</item>
+    </string-array>
+
+
+</resources>

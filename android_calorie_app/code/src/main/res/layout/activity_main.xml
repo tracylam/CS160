@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tracy.myapplication.MainActivity">
+
+    <!--<RadioGroup-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_below="@+id/spinner"-->
+        <!--android:layout_toEndOf="@+id/editText"-->
+        <!--android:layout_marginStart="11dp"-->
+        <!--android:id="@+id/radioGroup">-->
+
+
+        <!--<RadioButton-->
+            <!--android:text="Minutes"-->
+            <!--android:layout_width="90dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/radio_minutes"-->
+            <!--android:layout_marginRight="27dp"-->
+            <!--android:layout_alignTop="@+id/editText"-->
+            <!--android:layout_toEndOf="@+id/editText"-->
+            <!--android:checked="true"-->
+            <!--/>-->
+
+
+        <!--<RadioButton-->
+            <!--android:text="Reps"-->
+            <!--android:layout_width="75dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/radio_reps"-->
+            <!--android:layout_below="@+id/radioButton"-->
+            <!--android:layout_toEndOf="@+id/editText"-->
+            <!--/>-->
+
+        <!--</RadioGroup>-->
+
+    <TextView
+        android:text="TextView"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#1C19A8"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/textView2"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise Calorie Converter"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:hint="Input Number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:inputType="phone"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:hint="Select Exercise"
+        android:layout_height="50dp"
+        android:id="@+id/spinner"
+        android:layout_alignTop="@+id/editText"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
